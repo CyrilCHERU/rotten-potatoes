@@ -15,7 +15,7 @@ Ce projet met en oeuvre XXX entités qu'il faudra créer et mettre en place (y c
 ### Category (catégorie)
 - title (string, 255, not null) : le titre de la catégorie
 - slug (string, 255, not null) : le slug
-- movies (relation ManyToMnay avec Movie)
+- movies (relation ManyToMany avec Movie)
 
 ### Movie (film)
 - title (string, 255, not null) : le titre du film
